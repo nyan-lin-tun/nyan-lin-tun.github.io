@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
 
-    <style>
+
+	<style>
 
 		center{
 
@@ -17,53 +17,36 @@
 		}
 
 	</style>
-    <title>Nyan Lin Tun</title>
-  </head>
+	<title>Nyan Lin Tun</title>
+</head>
 
-  <body>
-
-
+<body>
 
 
-    <center>
+
+
+	<center>
 		<h1>
-		<div id="divId"></div>
+			<div id="divId"></div>
 		</h1>
 	</center>
 
 	<script>
 	//	var text = "Nyan Lin Tun";
-		var text = "ဥာဏ်လင်းထွန်း";
-		var textArray = text.split('');
+	var text = "ဥာဏ်လင်းထွန်း";
+	var textArray = text.split('');
 
-		var loopTime;
+	var loopTime;
 
-		function looper(){
-			if (textArray.length > 0) {
-				document.getElementById("divId").innerHTML += textArray.shift();
-			}else{
-				clearTimeout(loopTime);
-
-
-			}
-			loopTime = setTimeout("looper()",100);
+	function looper(){
+		if (textArray.length > 0) {
+			document.getElementById("divId").innerHTML += textArray.shift();
+		}else{
+			clearTimeout(loopTime);
 		}
-
-		looper();
-
-
-	</script>
-    <footer>
-        <center>
-          <div>
-           <!--   Created by Nyan Lin Tun!
-          
--->
-          </div>
-        </center>
-    </footer>
-
-
-
-  </body>
+		loopTime = setTimeout("looper()",100);
+	}
+	looper();
+</script>
+</body>
 </html>
