@@ -1,0 +1,26 @@
+@font-face {
+font-family:'MyMyanmar Universal';
+src:local('MyMyanmar Universal'), url('https://mmwebfonts.comquas.com/.../MyMMUnicodeUniversal.woff') format('woff'), url('https://mmwebfonts.comquas.com/.../MyMMUnicodeUniversal.ttf') format('ttf');
+}
+body,html,p,code,*,table,td,tr,span,div,a,ul,li,input,textarea{font-family:'MyMyanmar Universal'!important;}
+#Attribution1{display:none;}
+
+
+@font-face {
+font-family: 'Noto Sans Myanmar';
+font-style: normal;
+font-weight: normal;
+src: url(//fonts.gstatic.com/ea/notosansmyanmar/v3/NotoSansMyanmar-Regular.eot);
+src: url(//fonts.gstatic.com/ea/notosansmyanmar/v3/NotoSansMyanmar-Regular.eot?#iefix) format('embedded-opentype'),
+url(//fonts.gstatic.com/ea/notosansmyanmar/v3/NotoSansMyanmar-Regular.woff2) format('woff2'),
+url(//fonts.gstatic.com/ea/notosansmyanmar/v3/NotoSansMyanmar-Regular.woff) format('woff'),
+url(//fonts.gstatic.com/ea/notosansmyanmar/v3/NotoSansMyanmar-Regular.ttf) format('truetype');
+}
+* , html, body, div,p ,post-body-snippet,title,widget-content{font-family:'Noto Sans Myanmar'!important;}
+
+@font-face {
+font-family:'Padauk';
+src:local('Padauk'),url('https://fonts.googleapis.com/css?family=Padauk:400,700');
+
+}
+body,html,p,code,*,table,td,tr,span,div,a,ul,li,input,textarea{font-family:'Padauk'!important;}
