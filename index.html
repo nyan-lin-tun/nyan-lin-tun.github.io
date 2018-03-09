@@ -2,60 +2,15 @@
 <html>
 <head>
 	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-	<style>
-		@font-face{
-			font-family: parseltongue;
-			src: url(fonts/magicschool.ttf);
-		}
-		div{
-			font-family: parseltongue;
-			font-size: 100px;
-			
-			
-		}
-		a, div{
-			text-decoration: none;
-		}
-		center{
-
-			margin-top: 250px;
-
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+	
 	<title>Nyan Lin Tun</title>
 </head>
 
 <body>
-
-
-
-
-	<center>
-		<h1>
-			<a href="http://rinda.co" target="_blank"><div id="divId"></div></a>
-		</h1>
-	</center>
-
-	<script>
-	var text = "Rinda"
-	var textArray = text.split('');
-
-	var loopTime;
-
-	function looper(){
-		if (textArray.length > 0) {
-			document.getElementById("divId").innerHTML += textArray.shift();
-		}else{
-			clearTimeout(loopTime);
-		}
-		loopTime = setTimeout("looper()",100);
-	}
-	looper();
-</script>
+	
+	<h1 class=".rinda">
+		<a href="http://www.rinda.co" target="_blank">Rinda</a>
+	</h1>
 </body>
 </html>
