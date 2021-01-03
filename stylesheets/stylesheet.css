@@ -1,20 +1,12 @@
-html,body{
-  height: 100%;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 body,h1,a{
-	text-decoration: none;
-	font-family: 'parseltongue';
-	font-size: 100px;
+	/* text-decoration: none; */
+  font-family: 'SourceSansPro';
 	color: #000;
 }
 
 @font-face {
-    font-family: 'parseltongue';
-    src: url('../fonts/parseltongue.ttf');
+    font-family: 'SourceSansPro';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
 }
 
