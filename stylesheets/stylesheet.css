@@ -10,3 +10,27 @@ body,h1,a{
     src: url('../fonts/SourceSansPro-Regular.ttf');
 }
 
+/* Mobile font adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h6 {
+        font-size: 1.1em;
+    }
+    
+    ul > li > a {
+        font-size: 1.2em !important;
+    }
+    
+    .navbar-item {
+        font-size: 1.1em;
+    }
+}
+
