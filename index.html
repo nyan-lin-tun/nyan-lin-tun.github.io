@@ -11,16 +11,34 @@
 	gtag('config', 'G-JXLXCN5680');
 	</script>
 	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<title>Nyan Lin Tun</title>
 	<style>
         ul {
             list-style-type: disc;
-            padding-left: 40px; /* Adjust padding if necessary */
+            padding-left: 40px;
+        }
+        li {
+            margin-bottom: 15px;
         }
 		ul > li > a {
-     	   font-size: 1.5em; /* Adjust as needed */
+     	   font-size: 1.5em;
+    	}
+
+    	/* Mobile responsiveness */
+    	@media (max-width: 768px) {
+    	    ul {
+    	        padding-left: 20px;
+    	    }
+    	    ul > li > a {
+    	        font-size: 1.2em;
+    	    }
+    	    body > div {
+    	        padding-left: 15px !important;
+    	        padding-right: 15px !important;
+    	    }
     	}
     </style>
 </head>
@@ -30,7 +48,7 @@
 		<!-- navbar brand, navbar menu... -->
 		<div class="navbar-brand">
 			<div class="navbar-item">
-				<a href="../index.html" style="text-decoration: none; color:inherit;">
+				<a href="index.html" style="text-decoration: none; color:inherit;">
 					Nyan Lin Tun
 				</a>
 			</div>
