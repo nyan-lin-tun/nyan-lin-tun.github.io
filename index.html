@@ -26,6 +26,19 @@
 		ul > li > a {
      	   font-size: 1.5em;
     	}
+		.category-title {
+			font-size: 0.95em;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+			color: #7a7a7a;
+			margin-top: 30px;
+			margin-bottom: 12px;
+			padding-left: 10px;
+		}
+		.category-title:first-of-type {
+			margin-top: 0;
+		}
 
     	/* Mobile responsiveness */
     	@media (max-width: 768px) {
@@ -39,6 +52,11 @@
     	        padding-left: 15px !important;
     	        padding-right: 15px !important;
     	    }
+			.category-title {
+				padding-left: 5px;
+				margin-top: 25px;
+				margin-bottom: 10px;
+			}
     	}
     </style>
 </head>
@@ -55,21 +73,32 @@
 		</div>
 	</nav>
 	<div style="padding-top: 80px; padding-left: 10px;">
-	<ul>
-		<li><a href="https://www.cncf.io/training/kubestronaut/?_sft_lf-country=fi&p=nyan-lin-tun&_sf_s=nyan+lin+tun">Kubestronaut</a></li>
-		<li><a href="https://www.duolingo.com/profile/NyanLinTun">Duolingo</a></li>
-		<li><a href="https://www.linkedin.com/in/nyanlynntunn/">LinkedIn</a></li>
-		<li><a href="https://www.youtube.com/@everythinginswift">YouTube</a></li>
-		<li><a href="https://github.com/nyan-lin-tun">GitHub</a></li>
-		<li><a href="https://leetcode.com/u/nyan-lin-tun/">LeetCode</a></li>
-		<li><a href="https://medium.com/@nyanlynntunn">Medium</a></li>
-		<li><a href="https://x.com/nyanlynntunn">X</a></li>
-		<li><a href="https://nyanlintun.me/CNCF-people-explorer/">CNCF People</a></li>
-		<li><a href="https://nyanlintun.me/Workstation/">Workstation</a></li>
-		<li><a href="https://nyanlintun.me/System-Probe/">System Probe</a></li>
-		<li><a href="https://nyanlintun.me/finnish/">Finnish</a></li>
-		<li><a href="https://nyanlintun.me/Referrals/">Referrals</a></li>
-	</ul>
+		<div class="category-title">Profiles</div>
+		<ul>
+			<li><a href="https://github.com/nyan-lin-tun">GitHub</a></li>
+			<li><a href="https://gitlab.com/users/nyan-lin-tun/projects">GitLab</a></li>
+			<li><a href="https://www.linkedin.com/in/nyanlynntunn/">LinkedIn</a></li>
+			<li><a href="https://x.com/nyanlynntunn">X</a></li>
+			<li><a href="https://medium.com/@nyanlynntunn">Medium</a></li>
+			<li><a href="https://www.youtube.com/@everythinginswift">YouTube</a></li>
+			<li><a href="https://leetcode.com/u/nyan-lin-tun/">LeetCode</a></li>
+			<li><a href="https://www.duolingo.com/profile/NyanLinTun">Duolingo</a></li>
+			<li><a href="https://www.cncf.io/training/kubestronaut/?_sft_lf-country=fi&p=nyan-lin-tun&_sf_s=nyan+lin+tun">Kubestronaut</a></li>
+		</ul>
+
+		<div class="category-title">Technical Projects</div>
+		<ul>
+			<li><a href="https://nyanlintun.me/DaylightWeather/">Daylight Weather</a></li>
+			<li><a href="https://nyanlintun.me/CNCF-people-explorer/">CNCF People</a></li>
+			<li><a href="https://nyanlintun.me/Workstation/">Workstation</a></li>
+			<li><a href="https://nyanlintun.me/System-Probe/">System Probe</a></li>
+			<li><a href="https://nyanlintun.me/finnish/">Finnish</a></li>
+		</ul>
+
+		<div class="category-title">Other</div>
+		<ul>
+			<li><a href="https://nyanlintun.me/Referrals/">Referrals</a></li>
+		</ul>
 	</div>
 	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 	
